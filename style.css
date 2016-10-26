@@ -1,0 +1,161 @@
+body{
+    background:url(back.gif);
+    margin:auto;
+}
+.container{
+    margin:auto;
+    margin-top: 10px;
+    width:900px;
+    background-color: #212f3d;
+    opacity: 1;
+    padding-bottom: 20px;
+}
+.img-top{
+    text-align:center;
+}
+.img-top img{
+    width:50px;
+    height:auto;
+}
+.name{
+    text-align:center;
+}
+.name h1{
+    color:#ecf0f1;
+}
+.name h2{
+    color:#ecf0f1;
+}
+.name img{ 
+    height: 30px;
+    width: 30px;
+}
+.img-wish{
+    text-align:center;
+}
+.img-wish img{
+    width:170px;
+    height:auto;
+}
+.img-diya{
+    text-align:center;
+}
+.img-diya img{
+    width:200px;
+    height:auto;
+}
+.diwali{
+    width: 100%;
+}
+.diwali img{
+    width: 100%;
+}
+
+.quota{
+    padding: 0 10%;
+}
+.quota p{
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+.subscribe{
+    text-align: center;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    width:900px;
+    background-color: #212f3d;
+    opacity: 1;
+}
+.subscribe h1{
+    color: #fff;
+}
+.subscribe p{
+    color: #fff;
+}
+.subscribe input{
+    width: 200px;
+    padding: 10px;
+}
+.subscribe button{
+    padding: 9px;
+    background-color: #dc7633;
+}
+a{
+    text-decoration: none;
+}
+.whatsapp-css{
+    margin: auto;
+    margin-top: 10px;
+    background-color: #34AF23;
+    width: 80%;
+    color: fff;
+    text-decoration: none;
+    padding: 10px;
+}
+a .whatsapp{
+    color: #fff;
+}
+.facebook{
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #3B5998;;
+    width: 80%;
+    color: fff;
+    text-decoration: none;
+    padding: 10px;
+}
+a .facebook{
+    color: #fff;
+}
+.footer{
+    text-align: center;
+    color: #fff;
+    padding-top: 5px;
+    margin:auto;
+    margin-top: 10px;
+    width:900px;
+    background-color: #212f3d;
+    opacity: 1;
+    padding-bottom: 5px;
+}
+.footer a{
+    text-decoration: none;
+    color:  #2874a6 ;
+}
+@media screen and (max-width: 768px) {
+    .container{
+       width:700px; 
+    }
+    .subscribe{
+       width:700px; 
+    }
+    .footer{
+       width:700px; 
+    }
+}
+@media screen and (max-width: 360px) {
+    .container{
+       width:300px; 
+    }
+    .subscribe{
+       width:300px; 
+    }
+    .footer{
+       width:300px; 
+    }
+}
+@media screen and (max-width: 320px) {
+    .container{
+       width:280px; 
+    }
+    .subscribe{
+       width:280px; 
+    }
+    .footer{
+       width:280px; 
+    }
+}
